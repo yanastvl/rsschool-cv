@@ -16,14 +16,14 @@
         hljs.initHighlightingOnLoad();
 
     </script>
-    <script src="app.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <nav class="nav">
+
+                <nav class="nav" id="nav">
                     <a class="nav__link" href="#contact">Contacts</a>
                     <a class="nav__link" href="#about">About me</a>
                     <a class="nav__link" href="#skills">Skills</a>
@@ -33,6 +33,11 @@
                     <a class="nav__link" href="#language">Language</a>
                     <a class="nav__link" href="#projects">Projects</a>
                 </nav>
+
+                <button class="burger" type="button" id="navToggle">
+                    <img class="burger__icon" src="assets/img/burger.svg" alt="">
+                </button>
+
             </div>
         </div>
     </header>
@@ -40,11 +45,9 @@
     <section class="intro">
         <div class="container">
             <div class="user" id="contact">
-                <div class="user__avatar">
-                    <figure>
-                        <img class="avatar" src="assets/img/avatar.jpeg" alt="Avatar">
-                    </figure>
-                </div>
+                <figure>
+                    <img class="avatar" src="assets/img/avatar.jpeg" alt="Avatar">
+                </figure>
                 <div class="intro__content">
                     <h2 class="intro__subtitle">Hello I'm</h2>
                     <h1 class="intro__title">Stoyanidu Yana</h1>
@@ -205,9 +208,9 @@ function friend(friends) {
                 <a href="https://rs.school/" target="_blank">
                     <img class="footer__img footer__img-rs" src="assets/img/rs_school_js.svg" width="50" height="50" alt="RS School">
                 </a>
-            </div><!-- /.footer__inner -->
-        </div><!-- /.container -->
+            </div>
+        </div>
     </footer>
 </body>
-
+<script src="app.js"></script>
 </html>
