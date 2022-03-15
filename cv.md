@@ -24,7 +24,7 @@ I love the fast pace of life and getting new challenges to explore.
 * HTML;
 * CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology);
 * JavaScript;
-* Module Bundlers: Gulp,Parcel;
+* Module Bundlers: Gulp,Webpack;
 * Version control: Git;
 * Figma;
 * Editors: Brackets, VSCode.
